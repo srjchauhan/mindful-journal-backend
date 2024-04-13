@@ -7,3 +7,5 @@ pydantic~=2.6.4
 passlib~=1.7.4
 PyJWT~=2.8.0
 python-multipart==0.0.9
+bcrypt==4.1.2
+
