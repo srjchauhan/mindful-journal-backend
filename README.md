@@ -24,6 +24,7 @@ Safely store and retrieve journal entries, allowing users to revisit past experi
 python -m venv venv
 source activate venv/bin/activate
 pip install -r requirements.txt
+python app.py
 ```
 
 ### 2. Run in Docker
