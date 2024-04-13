@@ -20,6 +20,11 @@ Safely store and retrieve journal entries, allowing users to revisit past experi
 ### 1. Run in Development
     
 #### Pre-requisites : Install python in system
+#### Cloning the Repository:
+```shell
+git clone https://github.com/srjchauhan/mindful-journal-backend.git
+````
+#### Installing Dependencies and start:
 ```shell
 python -m venv venv
 source activate venv/bin/activate
@@ -28,6 +33,8 @@ python app.py
 ```
 
 ### 2. Run in Docker
+
+#### Pre-requisites : Install docker in system
 
 ```shell
 docker build -t mindfull-backend-service:latest .
