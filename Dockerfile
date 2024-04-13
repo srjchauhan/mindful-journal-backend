@@ -6,4 +6,5 @@ RUN --mount=type=cache,target=/root/.cache/pip \
 
 COPY . .
 RUN python db/db.py
+EXPOSE 8000
 CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]
