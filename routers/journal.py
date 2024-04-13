@@ -63,7 +63,6 @@ async def get_user_journals(user=Depends(get_current_user), db=Depends(get_db)):
         .order_by(desc(JournalModel.id))
         .all()
     )
-    print(journals, "journals")
     all_journals = {}
     for journal in journals:
         if journal.session_id in all_journals:
